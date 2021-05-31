@@ -1,0 +1,64 @@
+.user-components {
+  display: flex;
+  align-items: center;
+}
+.user-components__photo--lg img {
+  width: 80px;
+  height: 80px;
+  border-radius: 35%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+}
+.user-components__photo--sm img {
+  width: 60px;
+  height: 60px;
+  border-radius: 35%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+}
+.user-components__name {
+  font-size: 30px;
+  font-weight: 600;
+}
+.groups {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 580px;
+  margin-top: 20px;
+}
+.groups-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 10px;
+  margin: 20px 0px;
+  border-top: 1px solid var(--violet-opacity);
+
+  color: var(--violet);
+}
+.groups-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-components__name--groups {
+  font-size: 23px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-components__name--groups p {
+  font-size: 15px;
+  margin-top: 10px;
+  opacity: 0.5;
+}
+.user-components__notification {
+  font-size: 20px;
+  color: var(--violet);
+}
+.user-components__notification i {
+  margin-left: 8px;
+}

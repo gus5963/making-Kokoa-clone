@@ -1,3 +1,4 @@
 :root {
   --violet: rgb(142, 68, 173);
+  --violet-opacity: rgba(142, 68, 173, 0.5);
 }

@@ -4,6 +4,10 @@
 
 /*components*/
 @import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/navigation.css";
+@import "components/badge.css";
 
 /*screens*/
 @import "screens/login-page.css";
@@ -11,4 +15,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin-top: 30px;
+}
+.community-screen {
+  padding: 0px 25px;
 }
