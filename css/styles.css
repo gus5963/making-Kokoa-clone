@@ -11,11 +11,22 @@
 
 /*screens*/
 @import "screens/login-page.css";
+@import "screens/search-page.css";
+@import "screens/more.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
   margin-top: 30px;
 }
-.community-screen {
+.community-screen,
+.serachBody,
+.more-screen {
   padding: 0px 25px;
+}
+button {
+  cursor: pointer;
 }
